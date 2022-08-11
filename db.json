@@ -1,0 +1,34 @@
+{
+  "game": [
+    {
+      "age": "adult",
+      "id": "1",
+      "activity": "vr",
+      "name": "Payday",
+      "type": "coop",
+      "youtubeLink": "https://www.youtube.com/watch?v=D2qT4vP9Ork&ab_channel=RusGameTactics",
+      "description": "PAYDAY 2 — это шутер для 4 игроков. В этой игре вы снова наденете маски команды PAYDAY — Далласа, Хокстона, Вульфа и Ченса, которые прибудут в Вашингтон, чтобы провернуть отчаянное дельце. Новая сеть CRIMENET предлагает широкий выбор контрактов, от быстрых налетов на магазины, похищений детей и кибер-преступлений до ограблений крупных банков в эпическом PAYDAY.",
+      "imgLink": "https://upload.wikimedia.org/wikipedia/ru/7/7b/Payday2cover.jpg"
+    },
+    {
+      "age": "adult",
+      "id": "2",
+      "activity": "vr",
+      "name": "Payday-2",
+      "type": "coop",
+      "youtubeLink": "https://www.youtube.com/watch?v=D2qT4vP9Ork&ab_channel=RusGameTactics",
+      "description": "PAYDAY 2 — это шутер для 4 игроков. В этой игре вы снова наденете маски команды PAYDAY — Далласа, Хокстона, Вульфа и Ченса, которые прибудут в Вашингтон, чтобы провернуть отчаянное дельце. Новая сеть CRIMENET предлагает широкий выбор контрактов, от быстрых налетов на магазины, похищений детей и кибер-преступлений до ограблений крупных банков в эпическом PAYDAY.",
+      "imgLink": "https://upload.wikimedia.org/wikipedia/ru/6/6c/FIFA_22_Cover.jpg"
+    },
+    {
+      "age": "kid",
+      "id": "3",
+      "activity": "playstation",
+      "name": "Fifa 22",
+      "type": "coop",
+      "youtubeLink": "https://www.youtube.com/watch?v=vLj-27T-SEQ&ab_channel=EASPORTSFIFA",
+      "description": "FIFA 22 — 29-ая по счёту компьютерная игра из серии FIFA в жанре Спортивный симулятор футбольного симулятора, разработанная компаниями EA Vancouver под издательством Electronic Arts. ",
+      "imgLink": "https://vgtimes.ru/uploads/gallery/main/182285/ss_2cdf78a2091db6adb7ec405f4c5438fd62126.jpg"
+    }
+  ]
+}
