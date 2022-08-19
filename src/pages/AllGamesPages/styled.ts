@@ -77,4 +77,9 @@ export const LabelForToggle = styled.h3`
 export const GamesWrapper = styled.div`
   overflow-x: auto;
   flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-evenly;
 `

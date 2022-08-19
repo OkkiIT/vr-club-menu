@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import { headerHeight } from '../../consts/styles';
 
 export const HeaderContainer = styled.header`
+  position: relative;
+  z-index: 5;
   display: flex;
   height: ${headerHeight};
   justify-content: space-between;
@@ -19,10 +21,11 @@ export const Logo = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
+  font-size: 40px;
   font-weight: bold;
   letter-spacing: 2px;
   color: ${props => props.theme.fontColor.header};
+  font-family: 'Silkscreen', cursive;
 `
 
 export const SearchInputContainer = styled.div`

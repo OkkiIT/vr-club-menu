@@ -1,34 +1,34 @@
 {
-  "game": [
+  "games": [
     {
       "age": "adult",
       "id": "1",
       "activity": "vr",
-      "name": "Payday",
+      "name": "Payday 2",
       "type": "coop",
       "youtubeLink": "https://www.youtube.com/watch?v=D2qT4vP9Ork&ab_channel=RusGameTactics",
-      "description": "PAYDAY 2 — это шутер для 4 игроков. В этой игре вы снова наденете маски команды PAYDAY — Далласа, Хокстона, Вульфа и Ченса, которые прибудут в Вашингтон, чтобы провернуть отчаянное дельце. Новая сеть CRIMENET предлагает широкий выбор контрактов, от быстрых налетов на магазины, похищений детей и кибер-преступлений до ограблений крупных банков в эпическом PAYDAY.",
-      "imgLink": "https://upload.wikimedia.org/wikipedia/ru/7/7b/Payday2cover.jpg"
-    },
-    {
-      "age": "adult",
-      "id": "2",
-      "activity": "vr",
-      "name": "Payday-2",
-      "type": "coop",
-      "youtubeLink": "https://www.youtube.com/watch?v=D2qT4vP9Ork&ab_channel=RusGameTactics",
-      "description": "PAYDAY 2 — это шутер для 4 игроков. В этой игре вы снова наденете маски команды PAYDAY — Далласа, Хокстона, Вульфа и Ченса, которые прибудут в Вашингтон, чтобы провернуть отчаянное дельце. Новая сеть CRIMENET предлагает широкий выбор контрактов, от быстрых налетов на магазины, похищений детей и кибер-преступлений до ограблений крупных банков в эпическом PAYDAY.",
-      "imgLink": "https://upload.wikimedia.org/wikipedia/ru/6/6c/FIFA_22_Cover.jpg"
+      "imgLink": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fscreencritix.com%2Fwp-content%2Fuploads%2F2013%2F10%2Fpayday-2.jpg&f=1&nofb=1",
+      "description": "PAYDAY 2 — игра, вышедшая 13 августа 2013 года для Windows, PlayStation 3 и Xbox 360, созданная Overkill Software и изданная 505 Games (позже Starbreeze Studios). Версия для SteamOS и Linux была выпущена 21 марта 2016 года. Версия для Xbox One и PlayStation 4 была выпущена 12 июня 2015 года для Европы и 16 июня для Северной Америки. Версия для Nintendo Switch вышла 27 февраля 2018 года, а 9 декабря 2019 года, в ходе анонсирующей компании Winds of Change, было объявлено об остановке поддержки игры на Nintendo Switch из-за технических ограничений консоли.[1] Издание для VR вышло 15 марта 2018 года."
     },
     {
       "age": "kid",
+      "id": "2",
+      "activity": "vr",
+      "name": "Job Simulator",
+      "type": "solo",
+      "youtubeLink": "https://www.youtube.com/watch?v=_ov0Qs9sSXU&ab_channel=MrOculus",
+      "imgLink": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5xq-mZ_8hoPV-aO4v6dYXwHaEK%26pid%3DApi&f=1",
+      "description": "Вас приветствует Job Simulator — место, где вам с удовольствием предложат работу в крутой кафешке. Обслуживайте клиентов, готовьте вкусный кофе и научитесь пользоваться кассовым аппаратом. Помните, что за хорошую работу вы будете получать хорошие деньги."
+    },
+    {
+      "age": "adult",
       "id": "3",
       "activity": "playstation",
-      "name": "Fifa 22",
+      "name": "Fifa 2020",
       "type": "coop",
-      "youtubeLink": "https://www.youtube.com/watch?v=vLj-27T-SEQ&ab_channel=EASPORTSFIFA",
-      "description": "FIFA 22 — 29-ая по счёту компьютерная игра из серии FIFA в жанре Спортивный симулятор футбольного симулятора, разработанная компаниями EA Vancouver под издательством Electronic Arts. ",
-      "imgLink": "https://vgtimes.ru/uploads/gallery/main/182285/ss_2cdf78a2091db6adb7ec405f4c5438fd62126.jpg"
+      "youtubeLink": "https://www.youtube.com/watch?v=vgQNOIhRsV4&ab_channel=EASPORTSFIFA",
+      "imgLink": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fmundowin.com%2Fwp-content%2Fuploads%2F2020%2F05%2Fbest-vpn-for-fifa-2020.png%3Ffit%3D1200%252C1200%26ssl%3D1&f=1&nofb=1",
+      "description": "FIFA 20 — 27-ая по счёту компьютерная игра из серии FIFA в жанре футбольного симулятора, разработанная компаниями EA Vancouver и EA Romania под издательством Electronic Arts. Игра была официально анонсирована 12 июня 2019 года на выставке E3 2019. Выход игры состоялся 27 сентября 2019 года для игровых платформ PlayStation 4, Xbox One, Windows и Nintendo Switch."
     }
   ]
 }

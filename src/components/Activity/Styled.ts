@@ -19,6 +19,12 @@ export const First = styled.div<any>`
   justify-content: center;
   align-items: center;
   z-index: 0;
+
+  & h1 {
+    font-family: 'Silkscreen', cursive;
+    min-width: max-content;
+    overflow: hidden;
+  }
 `;
 
 export const Second = styled.div<any>`
@@ -40,6 +46,7 @@ export const ActivityWrapper = styled.div<any>`
   height: 100%;
   width: 100%;
   transition: flex 500ms;
+  //min-width: max-content;
 
   &:hover {
     flex: 2.4;
@@ -56,7 +63,6 @@ export const ActivityWrapper = styled.div<any>`
       }
     }
   }
-
 
   &:hover ${Second} {
     ${(Second) => {

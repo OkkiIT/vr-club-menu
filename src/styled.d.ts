@@ -11,6 +11,9 @@ declare module 'styled-components' {
     fontColor:{
       activity: string
       header:string
+    };
+    fontFamily:{
+      customFontFamily:string;
     }
   }
 }

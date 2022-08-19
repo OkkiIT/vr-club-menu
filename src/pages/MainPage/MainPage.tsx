@@ -6,7 +6,7 @@ import { Activity } from '../../components';
 const MainPage = () => {
   return (
     <MainPageContainer>
-      <Activity activityType={'vr'} activityName="VR" inverted={true} />
+      <Activity activityType={'vr'} activityName="Virtual Reality" inverted={true} />
       <Activity activityType={'playstation'} activityName="Playstation 4 Pro" />
     </MainPageContainer>
   );

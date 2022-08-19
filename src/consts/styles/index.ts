@@ -12,4 +12,7 @@ export const ThemeContext: DefaultTheme = {
     activity: '#b9b7fc',
     header: '#b9b7fc'
   },
+  fontFamily:{
+    customFontFamily:'Silkscreen, cursive;'
+  }
 };
