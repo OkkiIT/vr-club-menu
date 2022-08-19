@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { GameCardWrapper, ImageContainer, GameCardName, GameCardNameContainer } from './styled';
 import { Link } from 'react-router-dom';
+import { GameCardWrapper, ImageContainer, GameCardName, GameCardNameContainer } from './styled';
 
 interface GameCardProps {
   imgLink: string;

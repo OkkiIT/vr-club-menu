@@ -1,5 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/dist/query/react';
 import { BASE_URL } from 'consts/api';
+import { GameCard, GameCardParams } from 'consts/types';
 
 export const gamesApi = createApi({
   reducerPath: 'gamesApi',
@@ -13,7 +14,7 @@ export const gamesApi = createApi({
     },
   }),
   endpoints: (build) => ({
-    getAllGames: build.query({
+    getAllGames: build.query<GameCard[], GameCardParams>({
       query: (params) => ({
         url: `games`,
         params,

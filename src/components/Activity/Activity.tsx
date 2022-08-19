@@ -1,7 +1,8 @@
 import React from 'react';
 
+import ActivityButton from 'components/ActivityButton';
+
 import { First, Second, ActivityWrapper, ButtonContainer } from './Styled';
-import ActivityButton from '../ActivityButton';
 
 interface IActivityProps {
   inverted?: boolean;
@@ -17,14 +18,8 @@ const Activity = ({ inverted, activityName, activityType }: IActivityProps) => {
       </First>
       <Second inverted={inverted}>
         <ButtonContainer>
-          <ActivityButton
-            link={`/${activityType}/solo`}
-            title="1 Игрок"
-          />
-          <ActivityButton
-            link={`/${activityType}/coop`}
-            title="2 Игрока"
-          />
+          <ActivityButton link={`/${activityType}/solo`} title="1 Игрок" />
+          <ActivityButton link={`/${activityType}/coop`} title="2 Игрока" />
         </ButtonContainer>
       </Second>
     </ActivityWrapper>

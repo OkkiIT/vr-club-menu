@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import {
   Wrapper,
   MenuContainer,
@@ -18,21 +18,23 @@ const AllGamesPage = () => {
   const [forKidsOnly, setForKidsOnly] = useState(false);
 
   const { data } = useGetAllGamesQuery({ ...params, age: forKidsOnly ? 'kid' : 'adult' });
-  console.log(data)
+  const gamesArr = data ? data : [];
+
+  const toggleAgeFilter = () => setForKidsOnly((prev) => !prev);
   return (
     <Wrapper>
       <MenuContainer>
         <ButtonContainer>
-          <LinkButton to={'/'}/>
+          <LinkButton to={'/'} />
         </ButtonContainer>
         <AgeFilter>
           <LabelForToggle>Для детей</LabelForToggle>
-          <ToggleInput onChange={() => setForKidsOnly(!forKidsOnly)} type="checkbox" id="switch" />
+          <ToggleInput onChange={toggleAgeFilter} type="checkbox" id="switch" />
           <ToggleLabel htmlFor="switch" />
         </AgeFilter>
       </MenuContainer>
       <GamesWrapper>
-        {data?.map((item:any) => (
+        {gamesArr.map((item) => (
           <GameCard gameID={item.id} imgLink={item.imgLink} gameName={item.name} />
         ))}
       </GamesWrapper>

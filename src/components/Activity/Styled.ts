@@ -4,9 +4,12 @@ import styled from 'styled-components';
 import vrLogo from '../../assets/vr_logo.jpeg';
 //@ts-ignore
 import playStationlogo from '../../assets/playstation-logo.jpeg';
-import { HeaderContainer } from '../Header/styled';
 
-export const First = styled.div<any>`
+interface Props {
+  inverted?: boolean;
+}
+
+export const First = styled.div<Props>`
   background-position: center;
   position: relative;
   color: ${(props) => props.theme.fontColor.activity};
@@ -27,7 +30,7 @@ export const First = styled.div<any>`
   }
 `;
 
-export const Second = styled.div<any>`
+export const Second = styled.div<Props>`
   width: 100%;
   position: absolute;
   height: 20%;
@@ -46,7 +49,6 @@ export const ActivityWrapper = styled.div<any>`
   height: 100%;
   width: 100%;
   transition: flex 500ms;
-  //min-width: max-content;
 
   &:hover {
     flex: 2.4;

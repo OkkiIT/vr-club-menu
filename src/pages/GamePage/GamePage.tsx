@@ -9,15 +9,15 @@ import {
   GameCardWrapper,
   GameNameContainer,
   GameDescription,
-  PlayerContainer
+  PlayerContainer,
 } from './styled';
 import YouTubePlayer from 'react-player/youtube';
 
 const GamePage = () => {
   const { id, activity, type } = useParams();
   const { data } = useGetAllGamesQuery({ id });
-  const game = data ? data[0] : {};
-  console.log(game.link)
+  const game = data && data[0];
+
   return (
     <>
       <LinkButtonContainer>
@@ -25,10 +25,16 @@ const GamePage = () => {
       </LinkButtonContainer>
       <GameCardWrapper>
         <GameCardContainer>
-          <GameNameContainer>{game.name}</GameNameContainer>
-          <GameDescription>{game.description}</GameDescription>
+          <GameNameContainer>{game?.name}</GameNameContainer>
+          <GameDescription>{game?.description}</GameDescription>
           <PlayerContainer>
-            <YouTubePlayer width='100%'  controls={true} className='react-player'  playing={false} url={game.youtubeLink}/>
+            <YouTubePlayer
+              width="100%"
+              controls={true}
+              className="react-player"
+              playing={false}
+              url={game?.youtubeLink}
+            />
           </PlayerContainer>
         </GameCardContainer>
       </GameCardWrapper>

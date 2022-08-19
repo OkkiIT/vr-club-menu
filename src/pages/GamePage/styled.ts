@@ -18,7 +18,7 @@ export const GameCardContainer = styled.div`
   margin-top: 30px;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 10px 10px 30px 10px;
 `;
 
 export const GameCardWrapper = styled.div`

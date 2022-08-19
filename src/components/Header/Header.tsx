@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HeaderContainer, EmptyDiv, Logo, SearchInput, SearchInputContainer } from './styled';
+import { HeaderContainer, EmptyDiv, Logo } from './styled';
 import { Link } from 'react-router-dom';
 import Select from 'react-select';
 import { useGetAllGamesQuery } from '../../store/api-slices/games-slice';
@@ -9,7 +9,6 @@ const Header = () => {
   const { data } = useGetAllGamesQuery({});
 
   const [inputValue, setInputValue] = useState('');
-  const [selectedValue, setSelectedValue] = useState(null);
 
   const options =
     data &&
@@ -20,7 +19,6 @@ const Header = () => {
         label: item.name,
       };
     });
-  console.log(options);
 
   const Option = (props: OptionProps<any>) => {
     console.log(props);
@@ -44,7 +42,7 @@ const Header = () => {
         }}
         placeholder="Введите название игры..."
         isSearchable
-        value={selectedValue}
+        value={null}
         options={options}
         inputValue={inputValue}
         onInputChange={(e) => {

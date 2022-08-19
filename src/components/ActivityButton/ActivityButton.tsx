@@ -3,12 +3,12 @@ import React from 'react';
 import { Button, StyledSpan, StyledSvg, Center, Container } from './styled';
 import { Link } from 'react-router-dom';
 
-interface IActivityButtonProps {
+interface ActivityButtonProps {
   title: string;
   link: string;
 }
 
-const ActivityButton = ({ title, link }: IActivityButtonProps) => {
+const ActivityButton = ({ title, link }: ActivityButtonProps) => {
   return (
     <Container>
       <Center>
